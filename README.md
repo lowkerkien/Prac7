@@ -1,10 +1,11 @@
 # Prac7
 ENG1003 Practical 7
 var listOfAllKnownAuthors = []
+// monasheng1003
 
 class BookStore
 {
-    Publisher(name, address, owner)
+    constructor(name, address, owner)
     {
         this._name = name;
         this._address = address;
