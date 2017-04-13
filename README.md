@@ -5,7 +5,7 @@ var listOfAllKnownAuthors = []
 //he3llo
 class BookStore
 {
-    constructor(name, address, owner)
+    publisher(name, address, owner)
     {
         this._name = name;
         this._address = address;
